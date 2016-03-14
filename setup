@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+PATH=$git/bin
+
+git -c http.sslVerify=false clone $url $out
